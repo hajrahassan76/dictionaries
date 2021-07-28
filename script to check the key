@@ -1,0 +1,6 @@
+a = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+c = int(input("enter key \n"))
+if c in a:
+    print("Yes key", c, "exists in dictionary")
+else:
+    print("No key",c, "does not exist in dictionary")
