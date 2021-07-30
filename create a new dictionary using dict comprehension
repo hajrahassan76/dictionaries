@@ -1,0 +1,10 @@
+myDict = {
+    "name": "Ahmad",
+    "age": 25,
+    "salary": 5000,
+    "city": "Lahore"}
+
+extractKeys = ["name", "age"]
+
+newDict = {k: myDict[k] for k in extractKeys}
+print(newDict)
