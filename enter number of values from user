@@ -1,0 +1,25 @@
+def fun():
+    dic = {}
+    no=int(input("Enter number of items: "))
+    for i in range(no):
+        item=(input("Enter item name: (apple,mango,banana,grapes)  "))
+        quantity=int(input("Enter quantity: "))
+        if item=='apple':
+            cal=int(quantity*150)
+            dic.update({item:cal})
+        if item=='mango':
+            cal=int(quantity*200)
+            dic.update({item:cal})
+        if item == 'banana':
+            cal = int(quantity * 170)
+            dic.update({item:cal})
+        if item=='grapes':
+            cal=int(quantity*250)
+            dic.update({item:cal})
+    print(dic)
+    total=0
+    for val in dic.values():
+        total+=val
+    print("total amount: ",total)
+
+fun()
