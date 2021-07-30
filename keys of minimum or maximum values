@@ -1,0 +1,10 @@
+myDict = {
+    'Earth': 149000000,
+    'Mars': 227000000,
+    'Venus': 108000000,
+    'Jupiter': 778000000
+}
+mn = (min(myDict.values()))
+mx = (max(myDict.values()))
+print("The minimum value is:", mn, "and its key is ", [k for k, v in myDict.items() if v == mn])
+print("The max value is:", mx, "and its key is ", [k for k, v in myDict.items() if v == mx])
