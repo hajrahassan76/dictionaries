@@ -1,0 +1,9 @@
+myDict = {
+    "name": "Ahmad",
+    "age": 25,
+    "salary": 5000,
+    "city": "Lahore"}
+
+removeKeys = ["salary", "city"]
+myDict = {k: myDict[k] for k in myDict.keys() - removeKeys}
+print(myDict)
