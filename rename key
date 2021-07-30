@@ -1,0 +1,7 @@
+myDict = {
+    "name": "Ahmad",
+    "age": 25,
+    "salary": 5000,
+    "city": "Lahore"}
+myDict['location'] = myDict.pop('city')
+print(myDict)
