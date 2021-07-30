@@ -1,0 +1,5 @@
+dict = {'red':'#FF0000','green':'#008000','black':'#000000','white':'#FFFFFF'}
+sorted_dict = {}
+for key,value in sorted(dict.items()):
+    sorted_dict.update({key:value})
+print(sorted_dict)
